@@ -13,19 +13,19 @@ const carro = {
     modelo: "A4",
     valor: 89000,
     proprietario: {
-        nome: "Lis",
-        idade: 28,
+        nome: "Junior",
+        idade: 34,
         endereco: {
             logradouro: "Rua ABC",
             numero: 123
         }
     },
     condutores: [{
-        nome: "junior",
-        idade: 33
+        nome: "Junior",
+        idade: 34
     }, {
         nome: "Lissandra",
-        idade: 28
+        idade: 29
     }], //array de objetos
     calcularValordoSeguro: function(){
         //...function dentro do objeto
