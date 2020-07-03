@@ -11,8 +11,8 @@ const produtos = [
 // p --> cada um dos produtos
 // return false todos são filtrados array []
 //se colocar return true todos passam ---> nenhum elemento é filtrado
-console.log(produtos.filter(function (p) {
-    return p.preco > 2555
+console.log(produtos.filter(function (produto) {
+    return produto.preco > 3000
 }))
 
 // aparecendo só os produtos caros e frágeis 2 funções
