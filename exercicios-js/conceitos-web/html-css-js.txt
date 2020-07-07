@@ -1,0 +1,4 @@
+// html: parte estrutual da página, o que é o titulo, o qu é o menu...
+// CSS : vai definir estilos, o design
+//JS : a linguagem do cóigo utilizada, traz o comportamento dinâmico da página web
+// são os 3 pilares da aplicação web

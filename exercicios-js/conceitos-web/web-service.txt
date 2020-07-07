@@ -1,0 +1,26 @@
+web service são serviçoes que são disponilizados pela sua aplicação, que rodam em cima de tecnologia web, via de regra rodam
+em cima do protoclo HTTP
+2 grandes alternativas para trabalhar com we service
+-->SOAP:
+wsdl
+rpc
+xml (soap baseia-se em xml)
+burogrático
+-->REST (mais simples de trabalhar)
+JSON
+HTTP
+simples
+
+--> Convenções RESTful
+url        método        descrição
+/clientes  POST         novo cliente (inserir)
+/clientes  GET         obter todos os clientes cadastrados no sistema (por padrão receber os vinte primeiros)
+/clientes/36 GET       OBTÉM cliente ID 36
+/clientes/12 PUT       alterando o cliente de ID 12 (atualizando o cliente)
+/cliente/41 DELETE     exclui cliente de ID 41
+
+--> escolhas arquiteturais:
+1- SOA
+2- micro service
+
+

@@ -1,0 +1,2 @@
+//DNS --> Traduz os nomes de domínio em endereço IP
+// funciona sobre o protocolo UDP 

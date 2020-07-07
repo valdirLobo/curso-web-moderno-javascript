@@ -1,0 +1,9 @@
+//https --->comunicação criptografa (http seguro)
+http + TLS (como se fosse o SSL na versão mais novo)
+http + SSL
+--> dados são criptografados usando os protocolos TLS ou SSL
+--> protege contra interceptação (MITM)
+--> criptografa todas as informações url, cookies, headers, body...
+--> usa certificados difitais
+
+Let's encrypt - certificado digital gratis

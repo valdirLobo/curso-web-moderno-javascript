@@ -1,0 +1,22 @@
+/*
+http:
+Hyper
+Text
+Trasfer
+Protocol
+-->Protocolo de transferência de hyper texto
+*/
+ //hyper text : documentos escritos em html, CSS, JS, imagen, Vídeos,...
+
+ //Métoos do http: Get, Post, Put, Delete, Trace, options, connect, head
+
+ //https --> comunicação mais segura, criptografado
+
+ /*
+ Grupos de status http:
+ 1XX - Informação
+ 2XX - Sucesso
+ 3XX - Redirecionamento
+ 4XX - erro no cliente
+ 5XX - erro no servidor
+ */
