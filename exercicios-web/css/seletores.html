@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="css/tag.css">
+    <style>
+        /*
+        *{
+            color:#ff0;
+            background-color: #FAEBD7;
+        }
+        universal seleciona todo mundo
+        */
+/*         #aprovados {
+            color: 	#A52A2A;
+            background-color:	#FA8072;
+        } */
+
+/*         #aninhado > div {
+            color: 	#FFE4C4;
+            background-color: #BC8F8F;
+        } */
+
+        
+/*         #aninhado section {
+            color: brown;
+            background-color: 	#DEB887;
+        } */
+        
+
+/*         p + ul{
+            color: #FFA07A;
+            background-color: #A52A2A;
+        } */
+
+        /*
+        p ~ ol {
+            color: #FFA07A;
+            background-color:#E6E6FA;
+        }
+        */
+
+/*         [feira] {
+            color:#7B68EE;
+            background-color: 	#E0FFFF;
+        } */
+
+/*         span:nth-child(1) {
+            color:	#ff0;
+            background-color:	#D8BFD8;
+        } */
+
+        /* (odd)-filhos pares */
+        section >:nth-child(even) {
+            color: #ff0;
+            background-color: #FFEFD5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class='tag'>
+        <div class='tag'>
+            <p class='tag'>1</p>
+            <ul class='tag' feira='casa'>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+            <ul class='tag' feira='escritorio empresa'>
+                <li>Café</li>
+                <li>Água</li>
+            </ul>
+            <ol id='aprovados' class='tag'>
+                <li>Maria</li>
+                <li>Pedro</li>
+                <li>Ana</li>
+            </ol>
+            <div id='aninhado' class='tag'>
+                <div class="tag">
+                    <section class='tag nolabel'>
+                        <span class='tag'>1</span>
+                        <p class='tag'>2</p>
+                        <span class='tag'>3</span>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tag.js"></script>
+</body>
+
+</html>

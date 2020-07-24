@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unidades #01</title>
+    <style>
+        .unidades-absolutas {
+            position:absolute;
+            font-size: 40px;
+            padding: 20px;
+            border: solid 5px #222222;
+            margin: 30px;
+            width: 4cm; /*umidade pouco usada*/
+            height: 20mm;/*unidade pouco usada*/
+            top: 150px;
+            left: 200px;
+            /* o top e o left só foi aceito pq foi colocado a position absolute, não tem haver 
+            a position absolute com o fato de unidade absoluta*/
+        }
+
+        .unidades-relativas {
+            position: absolute; /*posiciona a div de forma absoluta dentro do newport*/
+            font-size: 4em;
+            padding: 5%;
+            border: solid 1vw #222222;
+            margin: .8%;
+            width: 20ww;
+            height: 15vh;
+            bottom: 5%;
+            right: 5%;
+            /*como são unidades relativas o seu tamanho altera de acordo com a mudança
+            da tela*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="unidades-absolutas">Opa!</div>
+    <div class="unidades-relativas">Epa!</div>
+</body>
+
+</html>
